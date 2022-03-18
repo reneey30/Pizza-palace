@@ -15,4 +15,36 @@ body {
   .landing p{
       margin-top:50%;
   }
+  #about-us{
+    min-height: 30vh;
+    align-items: center;
   
+  }
+  .about-pic {
+    background-color: #ffa500;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+  #about-us .content{
+    padding: 30px 20px 50px;
+    width: 100%;
+    background-color: #ffa500;
+    float:right;
+    text-align: justify;
+    overflow-x: hidden;
+  }
+  
+  .arrow
+{
+  position: relative;
+  left: 30%;
+  top: 50%;
+  margin-left:-20px;
+  
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
