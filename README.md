@@ -7,18 +7,23 @@ i) Enhance Home delivery
 ii) You just dial and the Pizza joint takes your order
 iii) You just get charged for same delivery fee even when you order 10 pizzas
 The website idea is more ideal as it user friendly and direct to the point
-Live Page
-https://reneey30.github.io/Desani-Studio/
-Installation / Setup instruction
-Open Terminal {Ctrl+Alt+T}
-git clone https://github.com/reneey30/Desani-Studio.git
 
-cd Delani-Studio
+Live Page
+
+https://reneey30.github.io/Desani-Studio/
+
+
+Installation / Setup instruction
+
+Open Terminal {Ctrl+Alt+T}
+git clone https://github.com/reneey30/Pizza-palace.git
+
+cd Pizza Palace
 
 code . when using vscode
 
 Technologies Used
-HTML5 CSS Bootstrap jQuery JS
+HTML CSS Bootstrap jQuery JS
 Known Bugs
 None at the moment
 
