@@ -10,7 +10,7 @@ The website idea is more ideal as it user friendly and direct to the point
 
 Live Page
 
-https://reneey30.github.io/Desani-Studio/
+https://reneey30.github.io/Pizza-palace/
 
 
 Installation / Setup instruction
