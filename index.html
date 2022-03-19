@@ -56,6 +56,7 @@
   <h2>About Us</h2>
 </div>
 <div class="d-flex justify-content-around category" id="about-us">
+
   <div class="img text-center about-img">
     <div class="about-pic">
       <img src="./images/meatdeluxe.jpg" alt="about-us">
@@ -67,53 +68,57 @@
       </div>
     </div>
   </div>
-  <div class="text-center">
-    <h2>Varieties</h2>
-  </div>
-  
-  <div class="variety category" id="variety">
-  
-    <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./images/chickenperiperi4.jpg" class="d-block w-100" alt="chicken periperi image">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Chicken Periperi</h5>
-            <p>Finger licking!</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="./images/hawaian.jpg" class="d-block w-100" alt="Hawaian image">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Hawaian</h5>
-            <p>Finger licking!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/meatdeluxe.jpg" class="d-block w-100" alt="Meat Deluxe image">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Meat Deluxe</h5>
-            <p>Finger licking!</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+
+</div>
+
+<div class="text-center">
+  <h2>Varieties</h2>
+</div>
+
+<div class="variety category" id="variety">
+
+  <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-  
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./images/chickenperiperi4.jpg" class="d-block w-100" alt="chicken periperi image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Chicken Periperi</h5>
+          <p>Finger licking!</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./images/hawaian.jpg" class="d-block w-100" alt="Hawaian image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hawaian</h5>
+          <p>Finger licking!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/meatdeluxe.jpg" class="d-block w-100" alt="Meat Deluxe image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Meat Deluxe</h5>
+          <p>Finger licking!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="container-fluid order" id="make-order">
+
+</div>
+
+<div class="container-fluid order" id="make-order">
     <div class="order-overlay">
       <div class="controls-top text-center" id="Order-now"> 
         <h2>Order Here</h2>
@@ -123,7 +128,7 @@
           <div class="col-sm-5">
             <form action="">
                 <label for="select">What's Your Flavor</label>
-                <select class="browser-default custom-select custom-select-md mb-3 name">
+                <select class="browser-default custom-select custom-select-md mb-3" id="name">
                   <!-- <option selected value="choose">Choose your flavor</option> -->
                   <option value="Chicken Tikka">Chicken Tikka</option>
                   <option value="PeriPeri Pizza">PeriPeri Pizza</option>
@@ -141,7 +146,7 @@
               </select>
               <label for="crust">Choose your favorite Crust!</label>
                 <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                    <option selected value="0">Select your preferred crust!</option>
+                  <option selected value="0">Select your preferred crust!</option>
                   <option value="Thick-Crust">Thick-Crust -- sh. 250</option>
                   <option value="Stuffed">Stuffed -- sh. 200</option>
                   <option value="Cracker-Crust">Cracker-crust-- sh. 150</option>
@@ -160,8 +165,8 @@
                   <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                 </div>
                 <br><br>
-              <button type="submit" class="btn btn-orange proceed">Proceed</button>
-                          </form>
+              <button type="submit" class="btn btn-info proceed" id="proceed">Proceed</button>
+            </form>
           </div>
           <div class="col-sm-7">
             <div id="information">
@@ -170,7 +175,7 @@
               <p id="regards">Regards, Management</p>
             </div>
             <div class="choice">
-              <h2>Your Order is:</h2>
+              <h2>Your Order</h2>
               <div id="your-orders">
                 <table class="table table-sm  pizzatable">
                   <thead>
@@ -197,9 +202,9 @@
                 <p id="addedprice">Delivery will cost sh. 200</p>
                 <p id="finallmessage"></p>
               </div>
-              <button class="btn btn-orange addPizza">Add Pizza</button>
-              <button class="btn btn-orange" id="checkout">Checkout</button>
-              <button class="btn btn-orange deliver">Home delivery?</button>
+              <button class="btn btn-warning addPizza" id="addPizza">Add Pizza</button>
+              <button class="btn btn-warning" id="checkout">Checkout</button>
+              <button class="btn btn-warning deliver" id="deliver">Home delivery?</button>
             </div>
             <div class="delivery">
               <form action="">
@@ -207,7 +212,7 @@
                   <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                   <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
                   <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                  <button class="btn btn-orange" id="final-order">Place Order</button>
+                  <button class="btn btn-warning" id="final-order">Place Order</button>
                 </div>
               </form>
           </div>
@@ -218,8 +223,8 @@
 
 <div class="container-fluid bg-default" id="contact">
     <div class="controls-top "> 
-        <h2>Contact Us</h2>
-      </div>
+      <h2>Contact Us</h2>
+    </div>
     <div class="row" id="contactdetails">
       <div class="col-md-1">
          
@@ -236,9 +241,13 @@
          <p>Tell: 0200200000</p> 
          <p>Phone: +254712261452</p>
       </div>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="./js/script.js"></script>
-    </body>
+    </div>
+</div> 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</body>
 
 </html>
